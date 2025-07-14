@@ -8,9 +8,12 @@
         <version>3.5.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.aston</groupId>
+    <groupId>com.m104</groupId>
     <artifactId>foyer-universitaire</artifactId>
     <version>1.0.0</version>
+    <!-- 1.0.0 Patch -> 1.0.1  -->
+    <!-- 1.0.0 Release Mineure ->  1.1.0 -->
+    <!-- 1.0.0 Release Majeure ->  2.0.0 -->
     <name>foyer-universitaire</name>
     <description>foyer-universitaire</description>
     <url/>
@@ -54,6 +57,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
         <dependency>
